@@ -1,0 +1,218 @@
+/* для кирилицы &display=swap&subset=cyrillic-ext */
+
+@import url("https://fonts.googleapis.com/css?family=Pacifico:regular&display=swap");
+/* для основного font-family: 'Pacifico'; */
+
+@import url("https://fonts.googleapis.com/css?family=Caveat:regular,500&display=swap");
+/*  для основного font-family: 'Caveat', cursive; */
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:regular,700);
+/* заголовки font-family: 'Amatic SC', cursive; */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+
+ul {
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	padding-inline-start: 40px;
+}
+
+p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+	font-family: "Amatic SC";
+	font-weight: bold;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: black;
+	font-family: "Caveat";
+	font-size: 20px;
+	font-weight: normal;
+	background-color: rgb(79, 177, 155);
+}
+/* плавный переход */
+html {
+	scroll-behavior: smooth;
+}
+/* ============================ТЕЛО============================== */
+
+h1 {
+	text-transform: uppercase;
+	font-size: 70px;
+	max-width: 80%;
+	margin: 0px auto;
+}
+
+div.header img.header {
+	float: left;
+	max-width: 50%;
+	margin: 10px;
+	border-top: 5px dashed rgb(34, 28, 28);
+	border-right: 5px solid rgb(34, 28, 28);
+	border-bottom: 5px dashed rgb(34, 28, 28);
+	border-left: 5px solid rgb(34, 28, 28);
+}
+
+div.header {
+	max-width: 80%;
+	/* margin: 25px; */
+	background-color: rgb(87, 101, 107);
+	padding: 15px;
+	border: 2px dotted rgb(0, 0, 0);
+}
+
+.item {
+	clear: both;
+}
+
+.container {
+	max-width: 90%;
+	margin: 0px auto;
+	padding: 5%;
+	/* поля */
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+}
+
+/* =========================MAIN=============== */
+
+.text {
+	/* max-width: 90%;
+	margin: 0px auto; */
+	margin-bottom: 25px;
+}
+
+.subtitle1,
+.subtitle2,
+.subtitle3,
+.subtitle4,
+.subtitle5 {
+	max-width: 800px;
+	margin: 0px 0px 25px 0px;
+	background-color: rgb(44, 136, 143);
+	/* что это такое? поменяла на border и линия ушла за кортинку */
+	outline: 2px dotted black;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 img {
+	/* здесь поменяла на right и ничего не изменилось */
+	float: left;
+	width: 100%;
+}
+
+/* ============================ПОДВАЛ============================ */
+
+.subtitle {
+	display: block;
+	font-size: 80px;
+	max-width: 30%;
+	margin: 50px auto 30px auto;
+	text-align: center;
+	font-weight: 500;
+	font-style: normal;
+}
+
+footer {
+	font-size: 0;
+}
+
+.footer1,
+.footer2,
+.footer3,
+.footer4,
+.footer5,
+.footer6,
+.footer7 {
+	text-align: center;
+}
+
+.footer1 li,
+.footer2 li,
+.footer3 li,
+.footer4 li,
+.footer5 li,
+.footer6 li,
+.footer7 li {
+	display: inline;
+}
+
+.img-footer1,
+.img-footer2,
+.img-footer3,
+.img-footer4,
+.img-footer5,
+.img-footer6,
+.img-footer7 {
+	font-size: 20px;
+	border: 4px solid #000000;
+	border-radius: 0px 20% 0px 20%;
+	max-width: 30%;
+	vertical-align: top;
+	filter: drop-shadow(10px 15px 4px #000000);
+}
+
+.img-test {
+	display: block;
+	min-width: 20%;
+	border: 4px solid #000000;
+	margin: -23% 0px 20px 600px;
+	max-width: 32.2%;
+	filter: drop-shadow(10px 15px 4px #000000);
+	border-radius: 0px 20% 0px 20%;
+}
+
+.footer-final {
+	display: block;
+	max-width: 1000px;
+	margin: 30px auto;
+	border: 1px solid black;
+	box-shadow: 10px 15px 20px 10px black;
+	border-radius: 50%;
+}
+
+h6 {
+	margin-top: 100px;
+	/* margin-bottom: 50px; */
+	font-size: 20px;
+	text-align: center;
+}
+
+/* text-shadow: 5px 5px 10 rgb(238, 112, 8); */
